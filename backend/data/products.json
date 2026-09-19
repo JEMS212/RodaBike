@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "nombre": "Marlin 5",
+    "marca": "Trek",
+    "categoria": "Montaña",
+    "precio": 12500,
+    "descripcion": "Bicicleta de montaña ligera para caminos y senderos.",
+    "frenos": "Disco hidráulico",
+    "velocidades": 16,
+    "cuadro": "Aluminio",
+    "stock": 4,
+    "imagen": "marlin5.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Talon 2 ",
+    "marca": "Giant",
+    "categoria": "Montaña",
+    "precio": 16900,
+    "descripcion": "Bicicleta resistente para montaña y recorridos largos.",
+    "frenos": "Disco hidráulico",
+    "velocidades": 18,
+    "cuadro": "Aluminio",
+    "stock": 2,
+    "imagen": "talon2.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "City 300",
+    "marca": "Benotto",
+    "categoria": "Urbana",
+    "precio": 7800,
+    "descripcion": "Bicicleta cómoda para recorridos diarios por la ciudad.",
+    "frenos": "V-Brake",
+    "velocidades": 7,
+    "cuadro": "Aluminio",
+    "stock": 6,
+    "imagen": "city300.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Junior 20",
+    "marca": "Mercurio",
+    "categoria": "Infantil",
+    "precio": 4500,
+    "descripcion": "Bicicleta infantil diseñada para paseos y aprendizaje.",
+    "frenos": "V-Brake",
+    "velocidades": 6,
+    "cuadro": "Acero",
+    "stock": 3,
+    "imagen": "junior20.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "E-City",
+    "marca": "Benotto",
+    "categoria": "Eléctrica",
+    "precio": 28500,
+    "descripcion": "Bicicleta eléctrica para desplazamientos urbanos.",
+    "frenos": "Disco hidráulico",
+    "velocidades": 8,
+    "cuadro": "Aluminio",
+    "stock": 1,
+    "imagen": "ecity.jpg"
+  }
+]
