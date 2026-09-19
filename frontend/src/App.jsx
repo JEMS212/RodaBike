@@ -21,7 +21,7 @@ function App() {
 });
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/products")
+    fetch("https://rodabike.onrender.com/api/products")
       .then((response) => response.json())
       .then((data) => setProductos(data))
       .catch((error) => console.error("Error al cargar productos:", error));
@@ -42,8 +42,8 @@ const agregarProducto = () => {
   alert("Por favor completa todos los campos.");
   return;
 }
-  fetch("http://localhost:3000/api/products", {
-    method: "POST",
+  fetch("https://rodabike.onrender.com/api/products", {
+  method: "POST",
     headers: {
       "Content-Type": "application/json"
     },
@@ -76,9 +76,9 @@ const agregarProducto = () => {
     );
 };
 const eliminarProducto = (id) => {
-  fetch(`http://localhost:3000/api/products/${id}`, {
-    method: "DELETE"
-  })
+  fetch(`https://rodabike.onrender.com/api/products/${id}`, {
+  method: "DELETE"
+})
     .then((response) => response.json())
     .then(() => {
       setProductos(productos.filter((producto) => producto.id !== id));
@@ -110,8 +110,8 @@ const editarProducto = (producto) => {
     precio: Number(nuevoPrecio)
   };
 
-  fetch(`http://localhost:3000/api/products/${producto.id}`, {
-    method: "PUT",
+  fetch(`https://rodabike.onrender.com/api/products/${producto.id}`, {
+  method: "PUT",
     headers: {
       "Content-Type": "application/json"
     },
